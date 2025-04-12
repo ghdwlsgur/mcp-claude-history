@@ -1,19 +1,11 @@
 {
-    "mcpServers": {
-        "pdf-reader": {
-            "command": "docker",
-            "args": [
-                "run",
-                "-i",
-                "--rm",
-                "-v",
-                "/Users/jinhyeokhong/pdfs:/pdfs",
-                "mcp/pdf-reader"
-            ],
-            "disabled": false,
-            "autoApprove": []
-        }
+  "mcpServers": {
+    "yt-dlp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/yt-dlp-mcp"
+      ]
     }
+  }
 }
-
-
