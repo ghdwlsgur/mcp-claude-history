@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "pdf-reader": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-v",
+                "/Users/jinhyeokhong/test/pdfs:/pdfs",
+                "mcp/pdf-reader"
+            ],
+            "disabled": false,
+            "autoApprove": []
+        }
+    }
+}
+
+
