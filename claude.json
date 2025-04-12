@@ -1,1 +1,19 @@
-/Users/jinhyeokhong/Library/Application Support/Claude/claude_desktop_config.json
+{
+    "mcpServers": {
+        "pdf-reader": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "-v",
+                "/Users/jinhyeokhong/pdfs:/pdfs",
+                "mcp/pdf-reader"
+            ],
+            "disabled": false,
+            "autoApprove": []
+        }
+    }
+}
+
+
