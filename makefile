@@ -1,6 +1,5 @@
 .PHONY: refresh
 
-
 refresh:
-	@echo "Pushing to remote repository..."	
-	@git commit -m "Update"	
+	@echo "Pushing to remote repository..."
+	@./update_claude_config.sh
