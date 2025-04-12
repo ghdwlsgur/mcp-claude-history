@@ -7,7 +7,7 @@
                 "-i",
                 "--rm",
                 "-v",
-                "/Users/jinhyeokhong/pdfs:/pdfs",
+                "/Users/jinhyeokhong/pdfs:/pdfs",//test...
                 "mcp/pdf-reader"
             ],
             "disabled": false,
