@@ -1,19 +1,15 @@
 {
-  "mcpServers": {
-      "pdf-reader": {
-          "command": "docker",
-          "args": [
-              "run",
-              "-i",
-              "--rm",
-              "-v",
-              "/Users/jinhyeokhong/dev/mcp-bind-mount:/mcp-bind-mount",
-              "mcp/pdf-reader"
-          ],
-          "disabled": false,
-          "autoApprove": []
-      }
-
-  }
-
+    "mcpServers": {
+        "llama_index_docs_server": {
+            "command": "/Users/jinhyeokhong/.local/bin/poetry",
+            "args": [
+                "--directory",
+                "/Users/jinhyeokhong/dev/mcp-rag-server",
+                "run",
+                "python",                
+                "/Users/jinhyeokhong/dev/mcp-rag-server/query.py"
+            ]
+        }
+    }
 }
+
